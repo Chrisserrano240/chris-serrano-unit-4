@@ -16,8 +16,23 @@ library(openintro)
 
 ### Exercise 1
 
-Remove this text, and add your answer for Exercise 1 here.
 
+-   Vector `c(1, 1L, "C")`
+
+```{r echo = F}
+1
+1L
+"C"
+```
+ 1 is a `r typeof(1)`, 1L is an `r typeof(1L)`, C is a `r typeof("C")`.
+```{r echo = F}
+c(1, 1L, "C")
+```
+The output of the second code chunk is a vector.
+```{r echo = F}
+(c(1, 1L, "C"))
+```
+all the variables are characters.
 ### Exercise 2
 
 Remove this text, and add your answer for Exercise 2 here.
